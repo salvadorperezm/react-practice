@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+:root {
+  --primary-color: #e8aa42;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--primary-color);
+
+  display: grid;
+  place-content: center;
+}
